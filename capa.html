@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolo de Pote – Oferta Limitada</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ font-family:'Segoe UI',Arial;
+ background: radial-gradient(circle at top, #ff4fa8 0%, #000000 55%, #000000 100%);
+ color:white;
+}
+
+/* BARRA DO CONTADOR */
+.timer-bar{
+ background: linear-gradient(90deg,#ff2b8c,#ff4fa8,#ff8ac9);
+ padding:12px 8px;
+ text-align:center;
+ font-weight:900;
+ letter-spacing:.5px;
+ box-shadow:0 0 25px rgba(255,43,140,.6);
+}
+
+.timer-bar span{
+ font-size:1.2rem;
+}
+
+/* HEADER */
+.header{
+ background:black;
+ padding:16px 0;
+ text-align:center;
+ border-bottom:2px solid #ff4fa8;
+}
+
+/* CONTAINER */
+.container{
+ max-width:1050px;
+ margin:25px auto;
+ padding:0 18px;
+}
+
+/* CARD */
+.card{
+ background: linear-gradient(160deg,#020005,#140212 55%,#000000 100%);
+ border-radius:22px;
+ border:1px solid rgba(255,43,140,.35);
+ box-shadow:0 0 55px rgba(255,43,140,.25);
+}
+
+/* CONTENT */
+.card-content{
+ padding:35px;
+}
+
+/* BADGE */
+.badge{
+ background: linear-gradient(90deg,#ff2b8c,#ff6fb3);
+ padding:9px 15px;
+ border-radius:999px;
+ font-weight:800;
+ display:inline-block;
+ margin-bottom:18px;
+ box-shadow:0 0 18px rgba(255,43,140,.55);
+}
+
+/* TITLE */
+.main-title{
+ font-size:2.5rem;
+ color:#ffc9e7;
+ text-shadow:0 0 15px rgba(255,105,180,.5);
+ margin-bottom:10px;
+}
+
+/* SUBTITLE */
+.subtitle{
+ color:#ffd8ef;
+ opacity:.9;
+}
+
+/* FEATURES */
+.features{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+ gap:18px;
+ margin:25px 0;
+}
+
+.feature-item{
+ background:rgba(255,43,140,.08);
+ border-left:4px solid #ff4fa8;
+ border-radius:12px;
+ padding:14px;
+}
+
+/* CTA BUTTON */
+.cta-button{
+ display:inline-block;
+ background: linear-gradient(90deg,#ff4fa8,#ff8ac9);
+ color:black;
+ font-weight:900;
+ font-size:1.2rem;
+ padding:18px 45px;
+ border-radius:999px;
+ text-decoration:none;
+ letter-spacing:.5px;
+ box-shadow:0 0 35px rgba(255,105,180,.6);
+}
+
+.cta-button:hover{
+ transform:scale(1.05);
+}
+
+/* GUARANTEE */
+.guarantee{
+ margin-top:18px;
+ background:rgba(255,105,180,.08);
+ border:1px solid rgba(255,105,180,.25);
+ padding:14px;
+ border-radius:14px;
+ text-align:center;
+}
+
+/* ALERT */
+.alert{
+ text-align:center;
+ margin-top:15px;
+ color:#ff9fd6;
+}
+
+/* FOOTER */
+footer{
+ text-align:center;
+ padding:25px;
+ color:#aaa;
+ font-size:.9rem;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- 🔥 BARRA URGÊNCIA -->
+<div class="timer-bar">
+⚠️ OFERTA LIMITADA • expira em <span id="countdown">04:00</span>
+</div>
+
+<header class="header">
+<i class="fa-solid fa-crown"></i> GUIA DEFINITIVO – BOLO DE POTE LUCRATIVO
+</header>
+
+<div class="container">
+
+<div class="card">
+<div class="card-content">
+
+<div class="badge">
+<i class="fa-solid fa-bolt"></i> ACESSO IMEDIATO • VAGAS LIMITADAS
+</div>
+
+<h1 class="main-title">Bolo de Pote que Vende Todos os Dias</h1>
+
+<p class="subtitle">
+Aprenda a produzir, precificar e vender bolos de pote com alto lucro de forma simples e direta — mesmo começando do zero.
+</p>
+
+<div class="features">
+
+<div class="feature-item"><i class="fa-solid fa-check"></i> Receitas econômicas e lucrativas</div>
+<div class="feature-item"><i class="fa-solid fa-tags"></i> Preço certo para vender sem desconto</div>
+<div class="feature-item"><i class="fa-solid fa-users"></i> Como conseguir clientes rápido</div>
+<div class="feature-item"><i class="fa-solid fa-store"></i> Estratégias que geram pedidos diários</div>
+<div class="feature-item"><i class="fa-solid fa-calculator"></i> Cálculo correto de custo e lucro</div>
+<div class="feature-item"><i class="fa-solid fa-fire"></i> Sabores que mais saem no Brasil</div>
+
+</div>
+
+<center>
+<a href="https://pay.hotmart.com/X103547469E?sck=HOTMART_PRODUCT_PAGE&off=6p0roagd&hotfeature=32&bid=1767021528117" class="cta-button">
+<i class="fa-solid fa-lock"></i> QUERO ENTRAR AGORA
+</a>
+</center>
+
+<div class="guarantee">
+<i class="fa-solid fa-shield-halved"></i> Compra segura pela Hotmart • acesso imediato no e-mail
+</div>
+
+<p class="alert">
+⏳ Oferta encerrará automaticamente ao final da contagem
+</p>
+
+</div>
+</div>
+</div>
+
+<footer>
+© 2025 Guia Bolo de Pote Lucrativo.
+</footer>
+
+<script>
+// ⏱️ CONTADOR REGRESSIVO – 4 MINUTOS
+let time = 4 * 60; // 4 minutos
+
+const countdown = document.getElementById("countdown");
+
+const interval = setInterval(() => {
+ const minutes = Math.floor(time / 60);
+ const seconds = time % 60;
+
+ countdown.innerHTML =
+  `${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+
+ if(time > 0){
+  time--;
+ } else {
+  clearInterval(interval); // para em 00:00
+ }
+}, 1000);
+</script>
+
+</body>
+</html>
